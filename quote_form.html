@@ -17,6 +17,9 @@
 <link rel="stylesheet" href="css/mdb.min.css">
 <!-- Your custom styles (optional) -->
 <link rel="stylesheet" href="css/style.css">
+<!-- Custom Font -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Orelega+One&family=Zen+Dots&display=swap" rel="stylesheet">
 <style>
 html, body, header, .view {
     height: 500px;
@@ -66,13 +69,12 @@ html, body, header, .view {
 
 <!-- Start your project here-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-   <a class="navbar-brand" href="index.html"> <img src="img/navbar_edit.png" height="50px" alt=""/> </a><h2 class="text-responsive-nav" style="color: white"><b>The Dumpster Crew</b></h2>
+   <a class="navbar-brand" href="index.html"> <img src="img/navbar_edit.png" height="50px" alt=""/> </a><h2 class="text-responsive-nav" style="color: white;  font-family: 'Orelega One', cursive;"><b>The Dumpster Crew</b></h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
           aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span> </a> </li>
-		
+        <li class="nav-item"> <a class="nav-link" href="index.html" style="font-family: 'Montserrat', sans-serif;">Home <span class="sr-only">(current)</span> </a> </li>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
@@ -80,22 +82,22 @@ html, body, header, .view {
             id="navbarDropdown"
             data-toggle="dropdown"
             aria-expanded="false"
+			style="font-family: 'Montserrat', sans-serif;"
           >
             Dumpsters
           </a>
           <!-- Dropdown menu -->
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="dumpster_20.html">20 Yard</a></li>
-            <li><a class="dropdown-item" href="#">40 Yard</a></li>
+            <li><a class="dropdown-item" href="dumpster_20.html" style="font-family: 'Montserrat', sans-serif;">12 Yard</a></li>
+            <li><a class="dropdown-item" href="dumpster_40.html" style="font-family: 'Montserrat', sans-serif;">16 Yard</a></li>
             <li><hr class="dropdown-divider" /></li>
             <li>
-              <a class="dropdown-item" href="dumpsters.html">Compare Sizes</a>
+              <a class="dropdown-item" href="dumpsters.html" style="font-family: 'Montserrat', sans-serif;">Compare Sizes</a>
             </li>
           </ul>
         </li>
-        <li class="nav-item"> <a class="nav-link" href="#">Get a Quote</a> </li>
-		<li class="nav-item"> <a class="nav-link" href="#">About Us</a></li>
-		<li class="nav-item"> <a class="nav-link" style="color:#3F51B5">+1-614-468-0047</a></li>
+        <li class="nav-item active"> <a class="nav-link" href="quote_form.html" style="font-family: 'Montserrat', sans-serif;">Get a Quote </a> </li>
+		<li class="nav-item"> <a class="nav-link" style="color:#3F51B5; font-family: 'Montserrat', sans-serif">+1-614-450-2432</a></li>
 		<li class="nav-item"> <i class="fas fa-phone fa-2x" style="color:#3F51B5"></i></li>
       </ul>
     </div>
@@ -122,8 +124,8 @@ html, body, header, .view {
 <section class="content">
   <div class="media mt-5 mr-auto">
     <div class="col-md-7 offset-2 offset-xl-1">
-      <h2 class="text-responsive-h indigo-text">Quote Request Form</h2>
-	  <h3 class="test-responsive-h black-text">Fill out our simple to use quote form and have a estimate in seconds! </h3>
+      <h2 class="text-responsive-h indigo-text" style="font-family: 'Montserrat', sans-serif; font-weight: 600;">Quote Request Form</h2>
+	  <h3 class="test-responsive-h black-text" style="font-family: 'Montserrat', sans-serif; font-weight: 300;">Fill out our simple to use quote form and have a estimate in seconds! </h3>
       <hr>
       <form>
         <div class="form-group">
