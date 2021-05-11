@@ -60,7 +60,9 @@ html, body, header, .view {
 .text-responsive-nav {
 	font-size: calc(100% + .5vw + .5vh);
 }
-	.row {
+.text-responsive-nav-small {
+	font-size: calc(100% + .5vw + .5vh); }
+.row {
 	margin: auto;	
 }
 </style>
@@ -74,31 +76,31 @@ html, body, header, .view {
           aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="index.html" style="font-family: 'Montserrat', sans-serif;">Home <span class="sr-only">(current)</span> </a> </li>
+        <li class="nav-item"> <a class="nav-link text-responsive-nav-small" href="index.html" style="color: white;  font-family: 'Orelega One', cursive;">Home <span class="sr-only">(current)</span> </a> </li>
         <li class="nav-item dropdown">
           <a
-            class="nav-link dropdown-toggle"
+            class="nav-link dropdown-toggle text-responsive-nav-small"
             href="#"
             id="navbarDropdown"
             data-toggle="dropdown"
             aria-expanded="false"
-			style="font-family: 'Montserrat', sans-serif;"
+			style="color: white;  font-family: 'Orelega One', cursive;"
           >
             Dumpsters
           </a>
           <!-- Dropdown menu -->
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="dumpster_20.html" style="font-family: 'Montserrat', sans-serif;">12 Yard</a></li>
-            <li><a class="dropdown-item" href="dumpster_40.html" style="font-family: 'Montserrat', sans-serif;">16 Yard</a></li>
+            <li><a class="dropdown-item text-responsive-nav-small" href="dumpster_20.html" style="color: black;  font-family: 'Orelega One', cursive;">12 Yard</a></li>
+            <li><a class="dropdown-item text-responsive-nav-small" href="dumpster_40.html" style="color: black;  font-family: 'Orelega One', cursive;">16 Yard</a></li>
             <li><hr class="dropdown-divider" /></li>
             <li>
-              <a class="dropdown-item" href="dumpsters.html" style="font-family: 'Montserrat', sans-serif;">Compare Sizes</a>
+              <a class="dropdown-item text-responsive-nav-small" href="dumpsters.html" style="color: black;  font-family: 'Orelega One', cursive;">Compare Sizes</a>
             </li>
           </ul>
         </li>
-        <li class="nav-item active"> <a class="nav-link" href="quote_form.html" style="font-family: 'Montserrat', sans-serif;">Get a Quote </a> </li>
-		<li class="nav-item"> <a class="nav-link" style="color:#3F51B5; font-family: 'Montserrat', sans-serif">+1-614-450-2432</a></li>
-		<li class="nav-item"> <i class="fas fa-phone fa-2x" style="color:#3F51B5"></i></li>
+        <li class="nav-item active"> <a class="nav-link text-responsive-nav-small" href="quote_form.html" style="color: white;  font-family: 'Orelega One', cursive;">Rent Online</a> </li>
+		<li class="nav-item"> <a class="nav-link text-responsive-nav-small" style="color:#3F51B5; font-family: 'Orelega One', cursive;">+1-614-450-2432</a></li>
+		<li class="nav-item"> <i class="fas fa-phone fa-2x mt-3" style="color:#3F51B5"></i></li>
       </ul>
     </div>
 </nav>
@@ -111,8 +113,8 @@ html, body, header, .view {
           <div class="row pt-5 mt-6">
             <div class="col-md-12 mb-3">
               <div class="intro-info-content text-center">
-                <h1 class="display-3 mb-5 wow fadeInDown" data-wow-delay="0.3s">GET A
-                  <a class="indigo-text font-weight-bold">QUOTE</a>
+                <h1 class="display-3 mb-5 wow fadeInDown" data-wow-delay="0.3s">ONLINE
+                  <a class="indigo-text font-weight-bold">ORDER</a>
 				</h1>
               </div>
             </div>
@@ -124,29 +126,215 @@ html, body, header, .view {
 <section class="content">
   <div class="media mt-5 mr-auto">
     <div class="col-md-7 offset-2 offset-xl-1">
-      <h2 class="text-responsive-h indigo-text" style="font-family: 'Montserrat', sans-serif; font-weight: 600;">Quote Request Form</h2>
-	  <h3 class="test-responsive-h black-text" style="font-family: 'Montserrat', sans-serif; font-weight: 300;">Fill out our simple to use quote form and have a estimate in seconds! </h3>
+      <h2 class="text-responsive-h indigo-text" style="font-family: 'Montserrat', sans-serif; font-weight: 600;">Online Rental Order Form</h2>
+	  <h3 class="test-responsive-h black-text" style="font-family: 'Montserrat', sans-serif; font-weight: 300;">Fill out our simple to Rental Form and get ready for your project in seconds! </h3>
       <hr>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else. We ask for your email so we can reach out if you like the quote.</small> </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Zip Code</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Zip Code">
-			<small id="emailHelp1" class="form-text text-muted">For Ohio Residents only</small>
+	  <h3 class="test-responsive-nav black-text" style="font-family: 'Montserrat', sans-serif; font-weight: 200;">Please note that prices do not cover pickups past the first pickup. Subsequent pickups will cost $20 per trip to the landfill</h3>
+      <!-- Container for demo purpose -->
+<div class="container my-5 py-5">
+
+  <!--Section: Design Block-->
+  <section>
+    <div class="row">
+      <div class="col-md-8 mb-4">
+        <div class="card mb-4">
+          <div class="card-header py-3">
+            <h5 class="mb-0">Catalog</h5>
+          </div>
+          <div class="card-body">
+            <!-- Single item -->
+            <div class="row">
+              <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <!-- Image -->
+                <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
+                    class="w-100" alt="12yardstore" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                  </a>
+                </div>
+                <!-- Image -->
+              </div>
+
+              <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                <!-- Data -->
+                <p><strong>12 Yard Dumpster</strong></p>
+                <!-- Data -->
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- Quantity -->
+                <div class="d-flex mb-4" style="max-width: 300px">
+                  <button class="btn btn-primary px-3 me-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+
+                  <div class="form-outline">
+                    <input id="form1" min="0" name="quantity" value="0" type="number" class="form-control" />
+                    <label class="form-label" for="form1">Quantity</label>
+                  </div>
+
+                  <button class="btn btn-primary px-3 ms-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <!-- Quantity -->
+
+                <!-- Price -->
+                <p class="text-start text-md-center">
+                  <strong>$160</strong>
+                </p>
+                <!-- Price -->
+              </div>
+            </div>
+            <!-- Single item -->
+
+            <hr class="my-4" />
+
+            <!-- Single item -->
+            <div class="row">
+              <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <!-- Image -->
+                <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
+                    class="w-100" alt="16yardstore" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                  </a>
+                </div>
+                <!-- Image -->
+              </div>
+
+              <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                <!-- Data -->
+				  <p><strong>16 Yard Dumpster</strong></p>
+                <!-- Data -->
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- Quantity -->
+                <div class="d-flex mb-4" style="max-width: 300px">
+                  <button class="btn btn-primary px-3 me-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+
+                  <div class="form-outline">
+                    <input id="form2" min="0" name="quantity" value="0" type="number" class="form-control" />
+                    <label class="form-label" for="form1">Quantity</label>
+                  </div>
+
+                  <button class="btn btn-primary px-3 ms-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <!-- Quantity -->
+
+                <!-- Price -->
+                <p class="text-start text-md-center">
+                  <strong>$180</strong>
+                </p>
+                <!-- Price -->
+              </div>
+            </div>
+            <!-- Single item -->
+          </div>
         </div>
-		<div class="form-group">
-          <label for="dumpsterSize">Dumpster Size</label>
-          <input type="password" class="form-control" id="dumpsterSize" placeholder="12 or 16 - NOTE: THIS WILL BE A MULTIPLE CHOICE BOX IN FUTURE">
-		  </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">I would like to be contacted about my quote.</label>
+        <div class="card mb-4">
+          <div class="card-body">
+            <p><strong>Date of Service</strong></p>
+  				<label for="serviceDate">Please select a date for delivery:</label>
+  				<input type="date" id="serviceDate" name="serviceDate">
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+		  <div class="card mb-4">
+          <div class="card-body">
+            <p><strong>Length of Rental</strong></p>
+  				<label for="serviceDate">Select your rental period:</label><br>
+  			  <input type="radio" id="duration1" name="duration" value="1 Day">	1 Day<br>
+			  <input type="radio" id="duration7" name="duration" value="1 Week">	1 Week<br>
+			  <input type="radio" id="duration14" name="duration" value="2 Weeks">	2 Weeks<br>
+			  <input type="radio" id="duration31" name="duration" value="1 Month">	1 Month
+          </div>
+        </div>
+		  <div class="card mb-4">
+          <div class="card-body">
+            <p><strong>Address</strong></p>
+  				<label for="StreetAddress">Street Address:</label>
+  				<input type="text" id="StreetAddress" name="address"><br>
+			  	<label for="ZIP">ZIP Code:</label>
+			  	<input type="text" id="ZIP" name="ZIP">
+          </div>
+        </div>
+		  <div class="card mb-4">
+          <div class="card-body">
+            <p><strong>Contact Info</strong></p>
+  				<label for="phone">Phone Number:</label>
+  				<input type="text" id="phone" name="phone"><br>
+			  	<label for="email">Email address: </label>
+			  	<input type="email" id="email" name="email">
+          </div>
+        </div>
+        <div class="card mb-4">
+          <div class="card-body">
+            <p><strong>We accept</strong></p>
+            <img class="me-2" width="45px"
+              src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+              alt="Visa" />
+            <img class="me-2" width="45px"
+              src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+              alt="American Express" />
+            <img class="me-2" width="45px"
+              src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+              alt="Mastercard" />
+            <img class="me-2" width="45px"
+              src="https://mdbootstrap.com/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.png"
+              alt="PayPal acceptance mark" />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card mb-4">
+          <div class="card-header py-3">
+            <h5 class="mb-0">Order Summary</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                Products
+                <span>$53.98</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                Shipping
+                <span>Gratis</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                <div>
+                  <strong>Total amount</strong>
+                  <strong>
+                    <p class="mb-0">(including VAT)</p>
+                  </strong>
+                </div>
+                <span><strong>$53.98</strong></span>
+              </li>
+            </ul>
+
+            <button type="button" class="btn btn-primary btn-lg btn-block">
+              Go to checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Section: Design Block-->
+
+</div>
+<!-- Container for demo purpose -->
     </div>
   </div>
   <hr>
@@ -169,17 +357,13 @@ html, body, header, .view {
                      </div>
                      <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                          <h6 class="mb-3 mb-lg-4 bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
-                         <p class="mb-1">8880 Commerce Loop Dr</p>
+                         <p class="mb-1">8884 Commerce Loop Dr</p>
                          <p>COLUMBUS, OHIO 43240</p>
                      </div>
                  </div>
                  <div class="row ">
-                     
-                     <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
-                         <h6 class="mt-55 mt-2 bold-text"><b>WEB DESIGN - MATHEW SIDDLE</b></h6><small> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> msiddledev@gmail.com</small>
-                     </div>
                      <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
-                         <h6 class="mt-55 mt-2 bold-text"><b>BUSINESS MANAGER - BARRY SIDDLE</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span>barry@bswheadworks.com</small>
+                         <h6 class="mt-55 mt-2 bold-text"><b>BUSINESS MANAGER - BARRY SIDDLE</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span>barry@cbusdumpsters.com</small>
                      </div>
                  </div>
              </div>
