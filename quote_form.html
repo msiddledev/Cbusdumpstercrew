@@ -414,11 +414,13 @@ $(":radio").on("change", function(){
       total += Number(this.value);
   });
   delivery = 30;
-  var str = $("#form1").val() * 180;
-  var str1 = $("#form2").val() * 210;
+  var str2 = $("#form1").val() * 180;
+  var str3 = $("#form2").val() * 210;
+  var str =  (180 + total) * $("#form1").val();
+  var str1 = (210 + total) * $("#form2").val();
 
-  $("#total1").text(str+str1);
-  $("#total").text(total+delivery+str+str1);
+  $("#total1").text(str2+str3);
+  $("#total").text(str+str1+delivery);
 });
 
 </script>
