@@ -414,8 +414,8 @@ $(":radio").on("change", function(){
       total += Number(this.value);
   });
   delivery = 30;
-  var str2 = $("#form1").val() * 180;
-  var str3 = $("#form2").val() * 210;
+  var str2 = (180 + total) * $("#form1").val();
+  var str3 = (210 + total) * $("#form2").val();
   var str =  (180 + total) * $("#form1").val();
   var str1 = (210 + total) * $("#form2").val();
 
